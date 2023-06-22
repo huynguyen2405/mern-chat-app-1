@@ -59,7 +59,7 @@ const Signup = () => {
           pic,
         },
         config
-      );
+        );
       console.log(data);
       toast({
         title: "Registration Successful",
@@ -101,8 +101,8 @@ const Signup = () => {
       const data = new FormData();
       data.append("file", pics);
       data.append("upload_preset", "chat-app");
-      data.append("cloud_name", "piyushproj");
-      fetch("https://api.cloudinary.com/v1_1/piyushproj/image/upload", {
+      data.append("cloud_name", "dbkvlw0sj");
+      fetch("https://api.cloudinary.com/v1_1/dbkvlw0sj/image/upload", {
         method: "post",
         body: data,
       })
